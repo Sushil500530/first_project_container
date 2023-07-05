@@ -167,16 +167,18 @@ span {
 .left-pic img {
     width: 450px;
     height: 350px;
+  
 }
 
 .left-pic {
     position: relative;
     top: 140px;
+    transform: calc(0.0) !important; ;
 }
- img:hover{
+ /* img:hover{
     transform: scale(1.1);
     transition: .3s;
- }
+ } */
 .know{
     height: 80vh;
     width: 95%;
@@ -222,6 +224,10 @@ em::before{
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
     padding: 20px 10px;
     margin: 10px;
+}
+.card-imge:hover{
+    transform: scale(1.1);
+    transition: .3s;
 }
 .card-imge{
     height: 150px;
@@ -280,3 +286,6 @@ em::before{
     border: 1px solid blue;
     outline: none;
 }
+.problem-image:hover{
+    transform: scale(1.1);
+    transition: .3s;
