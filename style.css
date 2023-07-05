@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.main-header {
+    width: 98%;
+    height: 60vh;
+    background-image: linear-gradient(to right, blue, rgb(0, 255, 30));
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 0px;
+
+}
+
+.logo-sert {
+    width: 25%;
+    position: relative;
+    margin-left: 25px;
+
+
+}
+
+.logo-sert h5 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.manubar {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.manubar ul {
+    display: flex;
+}
+
+.manubar li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.manubar ul li a {
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+.manubar ul li a:hover {
+    color: blue;
+}
+
+.input-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background-color: #f0f8ff;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #f0f8ff;
+    border: 1px solid black;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.details-sec {
+    width: 550px;
+    color: #1e1e37;
+    font-size: 16px;
+    position: relative;
+    top: 60px;
+    left: 4%;
+    transform: translate(3%, 15%);
+}
+
+span {
+    color: #f69902;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* margin-bottom: -24px; */
+}
+
+.details-sec h3 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ffffff;
+
+}
+
+.details-sec p {
+    font-size: 16px;
+}
+
+.details-sec .btn,
+.btn1 {
+    margin-top: 45px;
+    padding: 8px 14px;
+    color: #f6fbff;
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+
+
+}
+
+.details-sec .btn1 {
+    margin-left: 15px;
+
+}
+
+.details-sec .btn:hover {
+    background-color: #22d319;
+    color: black;
+    transition: .5s;
+    border: 1px solid white;
+}
+
+.details-sec .btn1:hover {
+    background-color: #22d319;
+    color: black;
+    transition: .5s;
+    border: 1px solid white;
+}
+
+/* .divition{
+    width: 80%;
+} */
+.left-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-pic img {
+    width: 450px;
+    height: 350px;
+}
+
+.left-pic {
+    position: relative;
+    top: 140px;
+}
+ img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+ }
+.know{
+    height: 80vh;
+    width: 95%;
+    text-align: center;
+    background: rgb(188, 186, 186);
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 40px;
+   top: 50px;
+   position: relative;
+}
+em{
+    position: relative;
+    top: 50px;
+    background-color: #120afb;
+}
+em::before{
+    content: '';
+    display: inline-block;
+    position: relative;
+ 
+    width: 500px;
+}
+              /* card design */
+.main-card{
+    height: 350px;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+}
+.card{
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.card-item{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
+    padding: 20px 10px;
+    margin: 10px;
+}
+.card-imge{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid blue;
+    outline: none;
+}
+.card-imge img{
+    width: 100%;
+   
+}
+.details{
+    text-align: center;
+    
+}
+.details h1{
+    font-size: 30px;
+    color: #7d36f0;
+    margin-top: 10px;
+}
+.details p{
+    color: #4d4949;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.details .btn{
+    background-color: #003ae9;
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:10px ;
+    height: 50px;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: hsl(225, 100%, 50%);
+    border: 1px solid black;
+    transition: .3s;
+  
+} 
+.problem-image img{
+    width: 100%;
+}
+.problem-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid blue;
+    outline: none;
+}
